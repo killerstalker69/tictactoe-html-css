@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+#board{
+    padding: 3em;
+    text-align: center;
+}
+.top{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px black solid;
+    float: left;
+  
+}
+.bottom{
+    height: 100px;
+    width: 100px;
+    border-top: 1px black solid;
+    float: left;
+}
+.left{
+    height: 100px;
+    width: 100px;
+    border-right: 1px black solid;
+    float: left;
+}
+.right{
+    height: 100px;
+    width: 100px;
+    border-left: 1px black solid;
+    float: right;
+
+}
+
+.center{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: left;
+
+}
+
+
+.row{
+    height: 100px;
+    width: 302px;
+    margin: 0 auto;
+    clear: both;
+    align-items: center;
+    cursor: pointer;
+
+
+}
